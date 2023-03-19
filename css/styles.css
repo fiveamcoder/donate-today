@@ -14,6 +14,7 @@ body{
     border: 0;
     font-weight: 700;
     font-size: 20px;
+    cursor: pointer;
 }
 .section-title{
     padding-top: 100px;
@@ -118,18 +119,77 @@ input[type="text"] {
     color: rgb(103, 101, 101);
     margin: 0px 15px;
 }
-/* depend on your donation */ 
+/* depend on your donation */
+/* They need us to suvive */ 
 .your-donation, .need-us{
     display: flex;
-    margin: 100px 0 0 150px;
+    margin: 100px 200px 0 200px;
+    gap: 150px;
+    align-items: center;
 }
-.your-donation-img{
-    width: 300px;
-    height: 400px;
+.donate-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
 }
-.your-donation-img img{
+.donate-text{
+    margin-bottom: 20px;
+    color: rgb(103, 101, 101);
+    font-size: 18px;
+}
+.pdwn{
+    margin-bottom: 50px;
+}
+.dontate-img{
+    width: 600px;
+}
+.dontate-img img{
     border: 0;
     border-radius: 5px;
-    width: 100%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+} 
+/* Get My Updates */
+.subscribe{
+    text-align: center;
+    height: 200px;
+    background-color: rgb(244, 244, 206);
+    margin: 50px 300px 150px 300px;
+    border: 0;
+    border-radius: 5px;
 }
-/* They need us to suvive */
+.subscribe input{
+    color: #fff;
+    background-color: rgb(178, 177, 177);
+    padding: 15px 20px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: -7px;
+}
+.btn-subscribe{
+    border-radius: 0px 5px 5px 0px;
+}
+.subscribe > .item{
+    padding-top: 75px;
+}
+/* footer */
+footer{
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+    padding-top: 50px;
+    font-size: 40px;
+}
+footer p{
+    color: #c9c8c8;
+    font-size: 14px;
+    margin-top: 20px;
+}
